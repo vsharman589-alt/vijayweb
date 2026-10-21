@@ -1,0 +1,50 @@
+ 
+ @keyframes runbanner
+{
+10%{left:0px;}
+
+20%{left:-22%;}
+30%{left:-22%;}
+
+40%{left:-44%;}
+50%{left:-44%;}
+
+60%{left:-66%;}
+70%{left:-66%;}
+
+
+
+}
+ 
+ body
+ {
+  //background:yellow;
+  
+ }
+ 
+ header
+{
+width:470%;
+background:red;
+height:400px;
+margin-top:-10px;
+//box-shadow:10px 10px 10px gray;
+overflow:hidden;
+}
+#mask
+{
+  width:1000px;
+  height:400px;
+  //background:red;
+  margin:auto;
+  overflow:hidden;
+}
+.pic
+{
+ width: 22%;
+height:400px;
+margin-left:-4px;
+position:relative;
+left:0px;
+animation:runbanner 12s ease-in infinite alternate-reverse;
+}

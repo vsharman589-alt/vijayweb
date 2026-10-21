@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table in HTML</title>
+</head>
+<style>
+  body
+  {
+    margin:0px;
+    padding:0px;
+    transition:0.50s;
+    
+  }
+  header{
+  background:black;
+  color:white;
+  font-size:10px;
+    font-family:Arial black;
+    text-align:center;
+    text-transform:uppercase;
+    padding:10px;  
+    box-shadow:10px 10px 10px gray;
+  }
+  footer
+  {
+    background:black;
+  color:white;
+  font-size:10px;
+  text-align:center;
+  }
+  main table
+  {
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:50px;
+    cursor:pointer;
+    transition:2s;
+    text-align:center;
+  }
+  main table th
+  {
+    background:rgb(66, 129, 66);
+    color:white;
+  }
+  main table td
+  {
+
+transition:2s;
+
+  }
+  main table td:hover
+  {
+    background:rgb(49, 216, 141);
+    transform:scale(1.10);
+  }
+ tr
+ {
+  background:rgb(86, 218, 172);
+ }
+    main table tr:hover
+   {
+ 
+    background:rgb(131, 29, 75);
+   }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+ {
+ body{
+  //background-color:red;
+ }
+header
+ {
+  font-size:60px;
+ }
+  main table
+  {
+    width:80%;
+  }
+}
+
+nav ul li
+{
+     display:inline;
+     list-style:none;
+     padding:10px;
+     background:gray;
+     margin-left:-4px;
+     cursor:pointer;
+}
+nav ul li:hover
+{
+    background:black; 
+    color:white;
+}
+nav ul li a:link
+{
+     color:black;
+     text-decoration:none;
+}
+nav ul li a:visited
+{
+     color:black;
+}
+nav ul li a:hover
+{
+color:white;
+}
+
+
+nav ul li:hover a:visited
+{
+     color:white;
+     text-decoration:underline;
+}
+
+
+</style>
+<header>
+  Table in html
+</header>
+<nav>
+     <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="practice.html">Practice Pages</a></li>
+
+     </ul>
+</nav>     
+<body>
+<main>
+<table border="1" cellpadding="10" cellspacing="2">
+<caption style="color:rgb(115, 8, 120)">Mark List</caption>
+
+  <tr style="background:purple;color:white;">
+  <th colspan="3">Modern School</th>
+</tr>
+<tr>
+  <th>Roll No</th><th>Name</th><th>Marks</th>
+</tr>
+<tr>
+  <td>101</td><td>Harri</td><td>500</td>
+</tr>
+
+<tr>
+  <td>102</td><td>Vijay</td><td>910</td>
+</tr>
+
+
+<tr>
+  <td>103</td><td>Samim</td><td>900</td>
+</tr>
+<tr>
+  <td>104</td><td>Arjun Kumar</td><td>700</td>
+</tr>
+
+<tr>
+  <td>105</td><td>Ashok</td><td>700</td>
+</tr>
+<tr>
+  <td>106</td><td>Ravi Kumar</td><td>700</td>
+</tr>
+<tr>
+  <td>107</td><td>Ravi Kumar</td><td>700</td>
+</tr>
+
+
+</table>
+
+
+
+</main>
+
+
+
+
+  
+</body>
+<footer>All Right reserved &reg;</footer>
+</html>

@@ -1,0 +1,316 @@
+<!doctype html>
+<!-- We are Folloing the W3C  Standard (DTD) of html -5  -->
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<!--
+RWD:- Responsive Web Design
+Mobile First
+ Width  %
+max-width:100% , min-width:100%;
+ Target   (break point)   mobile,tablet,desktop,tv.......
+media Query :- for Devices
+
+-->
+
+
+
+
+<!--   hero Section     -->
+
+<title>Home</title>
+<header>
+
+<div id="profile">
+<img src="images/pf1.jpg">
+</div>
+<div id="banner">
+<img src ="images/a4.gif">
+</div>
+
+
+
+</header>
+
+</head>
+   <nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="practice.html">Practice Pages</a></li>
+  <li><a href="#">My Project</a></li>
+  <li><a href="#">My Channel</a></li>
+  <li><a href="#">Portfolio</a></li>
+</ul>
+</nav>
+
+<style>
+/*    css3      */
+/*   selector  */
+header
+{
+width:95%;
+//border:1px black solid;
+margin:auto;
+display:flex;
+text-align:center;
+margin-top:-5px;
+margin-bottom:20px;
+}
+
+
+nav
+ {
+  width:40%;
+  box-shadow:10px 10px 10px gray;
+  margin:auto;
+  text-align:center;
+;
+  
+ }
+ 
+nav ul li
+{
+    
+     list-style:none;
+     padding:10px;
+     background:gray;
+     margin-left:-4px;
+     cursor:pointer;
+     margin-left:-32px;
+     
+}
+nav ul li:hover
+{
+    background:black; 
+    color:white;
+}
+nav ul li a:link
+{
+     color:black;
+     text-decoration:none;
+}
+nav ul li a:visited
+{
+     color:black;
+}
+nav ul li a:hover
+{
+color:white;
+}
+
+
+nav ul li:hover a:visited
+{
+     color:white;
+     text-decoration:underline;
+}
+
+
+
+
+#profile
+{
+width:150px;
+height:100px;
+//border:1px black solid;
+margin:20px;
+
+}
+#profile img
+{
+width:100%;
+height:100%;
+border-radius:100px;
+box-shadow:5px 5px 10px black;
+}
+
+
+#banner
+{
+width:880px;
+height:300px;
+//border:1px black solid;
+margin-left:10px;
+padding-top:10px;
+
+}
+
+#banner img
+{
+width:100%;
+height:100%;
+}
+
+
+/* class style */
+.textstyle
+{
+text-align:justify;
+font-size:10px;
+font-family:verdana;
+color:gray;
+width:60%;
+//border:1px black solid;
+padding:100px;
+margin:auto;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:10px 10px 10px gray;
+margin-top:20px;
+text-indent:40px;
+text-transform:
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) 
+{
+
+body{background:green;}
+#banner{display:none;}
+#profile
+{
+width:100%;
+height:100px;
+text-align:center;
+}
+
+#profile img
+{
+width:40%;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px)
+ {
+
+body{background:yellow;}
+#banner{width:60%;height:100px;}
+#profile img
+{
+width:40%;
+height:50%;
+}
+
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) 
+{
+
+body{background:cyan;}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px)
+ {
+body{background:red;}
+#banner{width:80%;height:400px;}
+#profile img
+{
+width:100%;
+height:150%;
+}
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+@media only screen and (min-width: 1200px) 
+{
+
+body{background:orange;}
+#banner{
+height:300px;
+}
+
+#profile
+{
+width:150px;
+height:150px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+</style>
+<nav></nav>
+
+<body>
+<main>
+   <section>
+<h2>About me </h2>
+<!-- empty tag -->
+
+<hr  color="#8800cc"  size="10" />
+
+<p class="textstyle">
+What is Lorem Ipsum?
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at <mark><b><i>Letraset and James</b></i> </mark> Mosley, the librarian at St Bride Printing Library in London, took a 1914
+<!-- Empty Tag -->
+<br/>
+
+ Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but 
+
+
+
+
+also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+<!-- inline style -->
+<span style="background:green;font-size:10px;color:yellow;box-shadow:4px 4px 4px gray;padding:2px;">
+
+ thanks to these sheets and more 
+</span>
+
+
+recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+
+</p>
+
+<p class="textstyle">
+What is Lorem Ipsum?
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
+
+</p>
+
+
+ </section>
+
+</main>
+
+
+
+<footer></footer>
+</body>
+
+
+
+
+</html>

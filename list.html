@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head> 
+<title>List in html </title>
+
+</head>
+
+<header>List</header>
+<style>
+header
+{
+width:50%;
+padding:20px;
+font-size:10px;
+color:white;
+background:black;
+text-align:center;
+margin:auto;
+font-family:Arial black;
+
+}
+main
+{
+border:1px black solid;
+display:flex;
+}
+
+nav ul li
+{
+     display:inline;
+     list-style:none;
+     padding:10px;
+     background:gray;
+     margin-left:-4px;
+     cursor:pointer;
+}
+nav ul li:hover
+{
+    background:black; 
+    color:white;
+}
+nav ul li a:link
+{
+     color:black;
+     text-decoration:none;
+}
+nav ul li a:visited
+{
+     color:black;
+}
+nav ul li a:hover
+{
+color:white;
+}
+
+
+nav ul li:hover a:visited
+{
+     color:white
+     text-decoration:underline;
+}
+
+
+
+#col1,#col2
+{
+//border:1px black solid;
+width:40%;
+}
+#col1
+{
+font-size:30px;
+}
+
+#col2
+{
+font-size:20px;
+}
+
+.mystyle
+{
+list-style:none;
+padding:0px;
+color:green;;
+}
+
+footer
+{
+background:black;
+padding:10px;
+color:white;
+text-align:center;
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+body{background:gree;}
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px)
+ {
+body{background:yello;}
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) 
+{
+body{background:cya;}
+header
+{
+font-size:40px;
+margin-bottom:10px;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+
+@media only screen and (min-width: 992px)
+ {
+body{background:re;}
+header
+{
+width:100%;
+font-size:100px;
+}
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+body{background:purple;}
+}
+
+</style>
+
+
+<body>
+<nav>
+     <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="practice.html">Practice Pages</a></li>
+
+     </ul>
+</nav>     
+<main>
+<div id="col1">
+<p> List Tag</p>
+</div>
+<div id="col2"> 
+<!-- Custom List -->
+
+<ol class="mystyle">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+
+<ol style="list-style-image:url(images/b1.jpg)">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+
+
+
+
+
+
+<!-- order list -->
+<ol>
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+<!-- unorder list -->
+<ul>
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ul>
+<!-- variation in list -->
+
+<!-- order list -->
+<ol Type="A">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+<ol Type="a">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+<ol Type="I">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+
+<ol Type="i">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+
+<ul Type="circle">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ul>
+<ul  Type="square">
+<li>Inida</li>
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ull>
+<!-- nested Listed -->
+<ol>
+<li>Inida
+ <ol>
+    <li>Up</li>
+   <li>Punjab</li>
+  <li>Delhi
+       <ul>
+            <li>North Delhi</li>
+            <li>South Delhi</li>
+
+
+      </ul>
+
+
+
+ </li>
+
+</ol>
+
+</li>
+
+
+
+<li>Usa</li>
+<li>Uk</li>
+<li>Japan</li>
+</ol>
+
+
+
+</div>
+
+
+
+</main>
+<footer>
+All Right Reserved &copy;
+</footer>
+</body>
+
+</html>
+
